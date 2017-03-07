@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{09F14896-A4E6-4FF1-8334-6BCF23059619}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A0C97621-FCFC-4A06-A0B2-2E9E9042A451}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SmartRoute.MRC", "src\SmartRoute.MRC\SmartRoute.MRC.xproj", "{FAB6AE8E-2FCA-4A3A-BC67-2DA4E56F2172}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SmartRoute.MRC.CenterConsole", "src\SmartRoute.MRC.CenterConsole\SmartRoute.MRC.CenterConsole.xproj", "{E5C60341-9716-4C22-865C-6C65361FC7C8}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SmartRoute.MRC.GatewayConsole", "src\SmartRoute.MRC.GatewayConsole\SmartRoute.MRC.GatewayConsole.xproj", "{9E294124-9D53-437E-9FF4-84D917ECBA0D}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SmartRoute.MRC.GatewayConsole1", "src\SmartRoute.MRC.GatewayConsole1\SmartRoute.MRC.GatewayConsole1.xproj", "{6D40A90B-596D-4332-BB87-A0BFC3B7EF2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAB6AE8E-2FCA-4A3A-BC67-2DA4E56F2172}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAB6AE8E-2FCA-4A3A-BC67-2DA4E56F2172}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAB6AE8E-2FCA-4A3A-BC67-2DA4E56F2172}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAB6AE8E-2FCA-4A3A-BC67-2DA4E56F2172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5C60341-9716-4C22-865C-6C65361FC7C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5C60341-9716-4C22-865C-6C65361FC7C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5C60341-9716-4C22-865C-6C65361FC7C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5C60341-9716-4C22-865C-6C65361FC7C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E294124-9D53-437E-9FF4-84D917ECBA0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E294124-9D53-437E-9FF4-84D917ECBA0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E294124-9D53-437E-9FF4-84D917ECBA0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E294124-9D53-437E-9FF4-84D917ECBA0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D40A90B-596D-4332-BB87-A0BFC3B7EF2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D40A90B-596D-4332-BB87-A0BFC3B7EF2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D40A90B-596D-4332-BB87-A0BFC3B7EF2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D40A90B-596D-4332-BB87-A0BFC3B7EF2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FAB6AE8E-2FCA-4A3A-BC67-2DA4E56F2172} = {09F14896-A4E6-4FF1-8334-6BCF23059619}
+		{E5C60341-9716-4C22-865C-6C65361FC7C8} = {09F14896-A4E6-4FF1-8334-6BCF23059619}
+		{9E294124-9D53-437E-9FF4-84D917ECBA0D} = {09F14896-A4E6-4FF1-8334-6BCF23059619}
+		{6D40A90B-596D-4332-BB87-A0BFC3B7EF2A} = {09F14896-A4E6-4FF1-8334-6BCF23059619}
+	EndGlobalSection
+EndGlobal
